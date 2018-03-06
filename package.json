@@ -1,0 +1,26 @@
+{
+  "name": "@prepair/tfs-utils",
+  "version": "0.0.1",
+  "description": "tfs related utilities",
+  "main": "index.js",
+  "scripts": {
+    "parent": "node src/parent",
+    "lint": "semistandard --env node src/**/*.js"
+  },
+  "keywords": [ "tfs" ],
+  "author": "",
+  "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "dependencies": {
+    "dotenv": "5.0.0",
+    "vso-node-api": "6.3.2"
+  },
+  "devDependencies": {
+    "husky": "0.15.0-rc.8",
+    "semistandard": "*"
+  }
+}
