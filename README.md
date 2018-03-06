@@ -1,5 +1,10 @@
 # TFS utils
 
+## tfs api
+
+- [official docs](https://docs.microsoft.com/en-us/rest/api/vsts/)
+- [nodejs wrapper](https://github.com/Microsoft/vsts-node-api)
+
 ## env vars
 
 - `TOKEN`: your tfs api token, can be found in tfs profile dropdown / security
