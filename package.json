@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "parent": "node src/parent",
+    "time": "node src/time",
     "lint": "semistandard --env node src/**/*.js"
   },
-  "keywords": [ "tfs" ],
+  "keywords": [
+    "tfs"
+  ],
   "author": "",
   "license": "ISC",
   "husky": {
@@ -20,6 +23,7 @@
     "vso-node-api": "6.3.2"
   },
   "devDependencies": {
+    "chalk": "^2.3.2",
     "husky": "0.15.0-rc.8",
     "semistandard": "*"
   }
