@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "parent": "node src/parent",
+    "build": "node src/build",
     "time": "node src/time",
     "lint": "semistandard --env node src/**/*.js"
   },
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "chalk": "^2.3.2",
+    "columnify": "^1.5.4",
     "husky": "0.15.0-rc.8",
     "semistandard": "*"
   }
